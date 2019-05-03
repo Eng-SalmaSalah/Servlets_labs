@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Log in</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+
+<body>
+    <main>
+        <form action="userLogin">
+            <h1>Login to MyCV.com</h1>
+            <i id="userIcon" class="glyphicon glyphicon-user"></i>
+            <input type="text" name="userName" placeholder="User name" maxlength="10" required>
+            <br>
+            <br>
+            <i class="fa fa-lock" id="lockIcon"></i>
+            <input type="password" name="password" placeholder="Password" required>
+            <br>
+            <br>
+            <br>
+            <div id="submitBtn" >
+                <input type="submit" value="Login">
+
+                <input type="checkbox" name="Remember me" value="Remember me"> remember me
+            </div>
+
+        </form>
+        <br>
+        <div id="register">  Not a member? <a href="registeration.html">Create a new account from here</a></div> 
+
+    </main>
+</body>
+
+</html>
